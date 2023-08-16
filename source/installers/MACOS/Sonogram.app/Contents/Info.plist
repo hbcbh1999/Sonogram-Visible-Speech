@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleAllowMixedLocalizations</key>  <string>false</string>
+	<key>CFBundleDevelopmentRegion</key>		<string>English</string>
+	<key>CFBundleExecutable</key>	            <string>universalJavaApplicationStub</string>
+	<key>CFBundleGetInfoString</key>	        <string>Sonogram visible speech, Version 5, author Christoph Lauer</string>
+	<key>CFBundleIconFile</key>					<string>Sonogram.icns</string>
+	<key>CFBundleIdentifier</key>				<string>Sonogram 4</string>
+	<key>CFBundleInfoDictionaryVersion</key>	<string>6.0</string>
+	<key>CFBundleName</key>						<string>Sonogram</string>
+	<key>CFBundlePackageType</key>				<string>APPL</string>
+	<key>CFBundleVersion</key>					<string>4</string>
+	<key>CFBundleShortVersionString</key>		<string>5.0</string>
+	<key>CFBundleLongVersionString</key>		<string>5.0.0</string>
+	<key>CFBundleSignature</key>				<string>????</string>
+	<key>JavaX</key>
+	<dict>
+		<key>JVMVersion</key>		<string>16+</string>
+		<key>ClassPath</key>		<string>$JAVAROOT/Sonogram.jar</string>
+		<key>MainClass</key>		<string>de.dfki.sonogram.Sonogram</string>
+		<key>SplashFile</key>	    <string>Splash.png</string>
+		<key>VMOptions</key>		<string>-Xms128m -Xmx2048m --add-opens=java.desktop/sun.awt=ALL-UNNAMED</string>
+		<key>WorkingDirectory</key> <string>$APP_PACKAGE/Contents/Resources/Java</string>
+	</dict>
+</dict>
+</plist>

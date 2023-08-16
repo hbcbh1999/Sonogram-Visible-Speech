@@ -1,0 +1,725 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>Sonogram Visible Speech Online Help</TITLE>
+</HEAD>
+<BODY BGCOLOR="#000000" TEXT="#FFFFFF" LINK="#FF0000" VLINK="#663366" alink="#FF0000" leftmargin="10" marginwidth="10">
+<P ALIGN=CENTER><FONT color="#FFFFFF" size="7" FACE="Courier New, Courier, mono"><B>Sonogram<br>
+</B></FONT><font color="#FFFFFF"><b><font face="Courier New, Courier, mono" size="4">visible 
+speech<br>
+</font></b></font><font color="#FFFFFF" size="4" face="Courier New, Courier, mono"><b>ONLINE HELP</b></font></P>
+<P ALIGN=CENTER><font color="#FFFFFF"><i>&copy; by Christoph Lauer Engineering - christophlauer@me.com</i></font></P>
+<P ALIGN=CENTER><font color="#FFFFFF"><img src="Splash.png" width="500" height="350"></font></P>
+<P ALIGN=CENTER><font color="#FF6633" size="5" face="Geneva, Arial, Helvetica, sans-serif">Content:</font></P>
+<div align="center"> 
+  <table>
+    <tr> 
+      <td height="10">        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#1">1. 
+      preface:</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10">        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#2">2. 
+      opening media file &amp; supported file types:</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10">        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#3">3. 
+      the sonogram view &amp; playing sounds:</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10">        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#4">4. 
+      introduction to windowing, sonogram generation and signal analysis:</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10">        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#5">5. 
+      general adjustment dialog (GAD):</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10"> 
+        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#6">6. 
+      zooming:</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10">        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#7">7. 
+      the 3D Perspectogram:</a></b></font></div></td>
+    </tr>
+      <td height="10">        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#8">8. 
+      Ultrazoom with the Wigner Distribution:</a></b></font></div></td>
+    </tr>    
+    
+    <tr> 
+      <td height="10">        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#9">9. 
+      cepstrum and fourier dialog:</a></b></font></div></td>
+    </tr>
+    
+    <tr> 
+      <td height="10">        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#10">10. 
+      linear predictive coding dialog:</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10"> 
+        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#11">11. 
+      pitchfinder:</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10"> 
+        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#12">12. 
+      logarithm amplitude and frequency:</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10"> 
+        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#13">13.
+		import and export to scalable vector graphics:</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10"> 
+        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#14">14. 
+      exporting to bitmap:</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10"> 
+        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#15">15. 
+      printing sonograms:</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10"> 
+        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#16">16. 
+      information dialog:</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10"> 
+        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#17">17. 
+      record audio:</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10"> 
+        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#18">18. 
+      other comments:</a></b></font></div></td>
+    </tr>
+    <tr> 
+      <td height="10"> 
+        <div align="left"><font color="#FF6633" size="3" face="Geneva, Arial, Helvetica, san-serif"><b><a href="#19">19. 
+      known bugs:</a></b></font></div></td>
+    </tr>
+  </table>
+</div>
+<div align="right"></div>
+<hr>
+<p><font color="#FFFFFF"><B><font size="4">1. Preface:</font></B> <a name="1"></a> </font></p>
+<p><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif"><strong>Sonogram</strong> has been originally programmed at the German Research Center for Artificial Intelligence 
+  (Deutsches Forschungszentrum f&uuml;r K&uuml;nstliche Intelligenz DFKI, <a href="http://www.dfki.de">www.dfki.de</a>) and is now in hands of the core developer Christoph Lauer.&nbsp;Sonogram is a tool to analyze speech and sound signals with methods of:</font></p>
+<p><font size="3">1.) Fast Fourier Transformation (FFT)<br>
+  2.) Linear Predictive Coding (LPC)<br>
+  3.) Wavelet Transformation <br>
+  4.) Cepstral Analysis <br>
+  5.) Autokorrelation <br>
+6.) Pitch Detection<br>
+7.) Speudo-Smoothed-Wigner-Ville-Distribution
+</font></p>
+<p><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif"> <strong>Sonogram</strong>'s 
+      ultimate goal is to be a little speech recognizer that works internally with 
+      hidden makrov models (HMM). But at this time, HMM's and other speech recognition 
+      tools are not implemented, only signal analysis tools are implemented. It supports drag 'n' drop features under Windows/Macintosh OSX, and can open 
+      nearly <em>any</em> sound file format (also video files!). It has been 
+      tested on Windows, Linux,SUN/Solaris and Macintosh OSX.&nbsp;<strong>Sonogram 
+      </strong>use internal JMF (the Java Media Framework). It's no problem 
+      to install it. Java3D is <em>not</em> necessary to run <strong>Sonogram</strong> 
+  but without it the 3D Perspectogram feature willl not be available. If you want to play the audio files with Sonogram you must install the OS native version of the Java Media Framework (JMF). For more detailed 
+      information about digital signal analysis, download the &quot;Digital Signal 
+      Analysis with <strong>Sonogram</strong>&quot; paper from my homepage.</font><p> 
+  <font color="#CC3300" size="4">Note: Sonogram is a kind of freeware and can be used for <strong>free</strong>.</p>
+<p>&nbsp;</p>
+<P><font color="#FFFFFF"><B><font size="4">2. Opening Media Files &amp; Supported File Types:<a name="2"></a></font></B></font></P>
+<P><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">To open a file, 
+  simply drop it over the main window, or select it with the File Chooser dialog 
+  on the toolbar or menu bar. <strong>Sonogram</strong> can open both audio 
+  and video files. Alternative media files can be opened via Internet connection 
+  and known URLs, or with a hotlist entry which can store all successfully 
+  opened Files. To open files via URL, select menu item and type the full 
+  URL into the dialog.(e.g.. http://www.dfki.de/~clauer/sonogram/demoC.wav). While 
+  opening the file, <strong>Sonogram</strong> checks the sample rate, bitrate, 
+  duration... and will convert the signal to 8-bit amplitude resolution and give 
+  a message if it can't convert the file, or if the selected file is not a known 
+  media file type. Internally, <strong>Sonogram</strong> uses the JMF to open 
+  and play these soundfiles. Sonogram includes some JMF routines to get access to the samples in the file, but if you want to play audio files with Sonogram you need to install JMF. At this time (10/2006), the internal 
+  JMF can support the following filetypes:</font></P>
+<CENTER>
+  <TABLE WIDTH=75% BORDER=1 CELLPADDING=1 CELLSPACING=1>
+    <TR> 
+      <TD WIDTH=242> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">Sun Audio</FONT></i></font></P>
+      </TD>
+      <TD WIDTH=174> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">*.au</FONT></i></font></P>
+      </TD>
+    </TR>
+    <TR> 
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">Wave Audio 
+          </FONT> </i></font></P>
+      </TD>
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">*.wav</FONT></i></font></P>
+      </TD>
+    </TR>
+    <TR> 
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">Apple 
+          Audio</FONT></i></font></P>
+      </TD>
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">*.aif, 
+          *aiff, *.aifc</FONT></i></font></P>
+      </TD>
+    </TR>
+    <TR> 
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">AVI Video</FONT></i></font></P>
+      </TD>
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">*.avi</FONT></i></font></P>
+      </TD>
+    </TR>
+    <TR> 
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">Macromedia 
+          Flash</FONT></i></font></P>
+      </TD>
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">*.swf, 
+          *.spl</FONT></i></font></P>
+      </TD>
+    </TR>
+    <TR> 
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">GSM Audio</FONT></i></font></P>
+      </TD>
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">*.gsm</FONT></i></font></P>
+      </TD>
+    </TR>
+    <TR> 
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">MVR IBM 
+          HotMedia</FONT></i></font></P>
+      </TD>
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">*.mvr</FONT></i></font></P>
+      </TD>
+    </TR>
+    <TR> 
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">MPEG I Layer 
+          I,II</FONT></i></font></P>
+      </TD>
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">*.mpeg 
+          *.mp2</FONT></i></font></P>
+      </TD>
+    </TR>
+    <TR> 
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">Apple 
+          Quicktime</FONT></i></font></P>
+      </TD>
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">*.mov</FONT></i></font></P>
+      </TD>
+    </TR>
+    <TR> 
+      <TD><font color="#FFFFFF" size="2" face="Geneva, Arial, Helvetica, san-serif">Hot Media</font></TD>
+      <TD> 
+        <P><font color="#FFFFFF"><i><FONT FACE="Geneva, Arial, Helvetica, san-serif" size="2">*.mvr</FONT></i></font></P>
+      </TD>
+    </TR>
+  </TABLE>
+</CENTER>
+<P><font color="#FFFFFF"><i>For more details on supported file types, see <a href="http://java.sun.com/products/java-media/jmf/2.1.1/formats.html">Sun's jmf supported media formats page</a>.</i></font></P>
+<font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">The opening of a file is split 
+  into three phases: 1. reading the samples out from the file,&nbsp;&nbsp; 2. calculating 
+  the spectrum with a specific transformation, and&nbsp;3. &quot;Painting&quot; 
+the spectrum on a buffered image. The first two steps can be observed with the 
+progress bar located on the bottom edge of the main window. Left-clicking 
+  with the mouse on this progress bar will abort the process of spectral analysis 
+  taking place. Another useful feature in <strong>Sonogram</strong> is that you 
+  can open a media file as an argument in the console call. (E.g. Java Sonogram 
+  /usr/share/sounds/test.au). So it is possible to add <strong>Sonogram</strong> 
+to your default browser or register it as a default type in Microsoft Windows 
+  for Sonos supported mediafiles.</font><p>
+  <B><font size="3">2.1. MP3 files:</font></B>
+  MP3 compressed files can be opened with Sonogram visible speech. The file will be converted to a regular wave file with the included encoder and then opened with sonogram automatically. An information dialog windows is opened if an mp3 file is opened which shows more information.
+<p></p>
+<P><font color="#FFFFFF"><B><font size="4">3. The Sonogram View &amp; Playing Sounds:<a name="3"></a></font></B></font></P>
+<P><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">If a file is dropped 
+  (this feature works only in Windows and Macintosh OSX), the program 
+  begins to read out the file, transform it and generate a sonogram image. <strong>Sonogram</strong>'s 
+  software architecture uses double-buffering technology to store the image in 
+  its memory; that means pictures are only generated new for one time. Should 
+  a new file be opened, or program parameters changed, or window be resized on 
+  the screen, the image will refresh itself very quickly. Between 
+  the opening and viewing of a file, a progress dialog is displayed onscreen.&nbsp; 
+  On the bottom edge of the main view, a time window with a timeline is shown 
+  where you can slide a slider; this slider represents the start position for 
+  playing the sound. At the lower left side, two numbers are shown: <B>WN</B> 
+  for window number, and <B>WL</B> for window length. Note: Maximum frequency 
+  is half your window length, so frequency resolution is <em>sample rate/WL/2</em>. 
+  Over both of these selected values, the transformation type is shown (either<B> 
+  FFT</B> or <B>LPC</B>). If you move the mouse over the Sonogram view on 
+  the lower right side, four values will appear: <B>P</B>: the peak of the spectrum 
+  under the cursor, <B>F:</B> the actual frequency located at the cursor, 
+  <B>T: </B> the actual time at the cursor location, and<B> A</B>: 
+  relative amplitude, in percentage, at the selected point of the cursor. &nbsp;On 
+  the left side. the spectrum with a smoothed curve is displayed.</font></P>
+<P ALIGN=center><img src="SonogramScreenShot.png" width="500" height="373"></P>
+<P><font color="#FFFFFF"><B><font size="4">4. Introduction to Windowing,&nbsp; Sonogram Generation 
+  and Signal Analysis:<a name="4"></a></font></B></font></P>
+<P STYLE="font-weight: medium"><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">&quot;Windowing&quot; 
+  in signal analysis means that the signal is split into pieces, which are then 
+  singly transformed into the frequency domain. In this way, resolution 
+  over time is possible. When a signal with 8000 samples and duration from 
+  one second is transformed without windowing, &nbsp;each frequency in the frequency 
+  domain of this signal contains information about complete time from one second. 
+  If it is split into 100 pieces, an 80-sample time resolution would be 
+  10ms for each frequency. But, as time resolution is goes up, frequency resolution 
+  goes down, because fewer samples are being considered for transformation. &quot;Overlapping&quot; means that transformation jumps not in steps from the length but in steps they 
+  are<em> lesser</em> than the length. The Overlap value can be changed in the 
+  General Adjustment Dialog as divide time window length, also with one increment 
+  length is time window length, with two half timew..... Windowing means also 
+  to place functions over this &quot;piece&quot; of signal. So jagged edges 
+  are straightened out (over the time domain) and aliasing effects are prevented. 
+  The standard transformation for calculating a sonogram is Fast-Fourier-Transformation, 
+  but in <strong>Sonogram</strong>, Linear Predictive Coding method can also be used to 
+  transform. Linear Predictive Coding (LPC) has been used in speech recognition 
+  for a long time, and calculates an LPC-spectrum in three steps: 1. It 
+  apriximates prediction coefficients (Number of Coefficients can be chosen 
+  in the General Adjustment Dialog -AD-) for a given amplitude vector (length 
+  of ampl.vec. can selected in GAD, and is named previous samples); 2. With these 
+  coefficients, LPC will calculate the future-amplitude-time-array;&nbsp;3. Fourier-transform 
+  with this timeline vector gives the LPC-spectrum. For more detailed information 
+  about digital signal analysis, download the &quot;Digital Signal Analyse with <strong>Sonogram</strong>&quot; paper from my homepage.</font></P>
+<P STYLE="font-weight: medium">&nbsp;</P>
+<P><font color="#FFFFFF"><B><font size="4">5. General Adjustment Dialog (GAD):<a name="5"></a></font></B></font></P>
+<p><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">All Options may be changed 
+  in the General Adjustment Dialog. It is shown in various register tabs; 
+  the function of each of which is described below:</font></p>
+
+<ul>
+  <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif"><b>General Options:</b> 
+      <b>Blue</b> checkboxes change the options for the single curve on the right 
+              side. Monochrome single curve colors this curve with no amplitude-dependent 
+              colors. Always Normalize your multiplicity curve to its maximum amplitude, so that time values with little amplitude might be shown in better contrast. 
+              The Spectrum, while playing the sound, animates the single curve in a nice 
+              way. &quot;Smooth out&quot; draws a red line, which will show as a smoothed 
+              curve. <b>Orange</b> checkboxes control smooth functions for the time and 
+              frequency dimensions. <b>Violet</b> checkboxes are relevant for generic program 
+              settings. With Save Hotlist, screen position and save configuration --all options for SonogramConfig.xml-- can be set in order to manage 
+              all these options. Open Last File, opens, as its name suggests, the 
+              last file at Start. With &quot;save zoom history list&quot;, the 
+              last file will be opened with its zoom settings. <b>Black</b> boxes 
+              are a grid flag (the same as in logarithm frequency) and show intensity, which 
+              converts the amplitude time line to an energy timeline. &quot;Search for local 
+              peak&quot; searches for the local peak in the current selection of spectrum 
+              and highlights it with a red circle. The <b>Green</b> checkbox allows the 
+              user to open all files at sample rate of 8kHz, so the maximum frequency in 
+              the frequency axis is 4kHz.</font></li>
+      <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif"><b>Overlapping: </b>As 
+              described in Chapter 4, overlapping is controlled with this slider. The number 
+              refers exactly to the number of transformations per window.</font></li>
+      <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif"><b>Colors:</b> Five color 
+              schemes are selectable and invertible.</font></li>
+      <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif"><b>Window Functions: </b> 
+      Functions exponents with time windows. Best signal-to-noise is obtained with 
+      the Hamming and Gauss functions.</font></li>
+      <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif"><b>Window Length:</b> The 
+              automatic search for window length can be disabled, and the number of transformation 
+              points used for FFT can be user-selected. With window length, time for each 
+              window and amount of windows are changed.</font></li>
+      <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif"><b>Pitch: </b>Pitch detection 
+              simply highlights the peaks for each time point, and so on for each transformed 
+              time window. Various settings are available. (E.g. Fog over sonogram picture...)</font></li>
+      <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif"><b>Transformation:</b> 
+      Either Fast Fourier Transformation or Linear Predictive Coding Transformation 
+      can be chosen for calculating a Sonogram. If LPC is chosen, the number of 
+      LPC coefficients and prediction buffer sizes must be regulated on the LPC 
+      tab. (See chapter 4)</font></li>
+      <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif"><b>Linear Predictive Coding: 
+              </b>Settings here are for the LPC Dialog and LPC Transformation to generate 
+              a Sonogram. As described in Chapter 4, all parameters for LPC are modified 
+              here: The number of previous samples to generate coefficients, the number 
+              of coefficients to generate, the length of future vectors to transform 
+              with FFT and the frequency ratio for the outputted frequency vector. Additionally, 
+              amplitude can be shown logarithmically in the LPC-dialog, and 
+              the format finder to locate local maximums can be enabled or disabled.</font></li>
+      <li><font color="#FFFFFF" size="3"><b><font face="Geneva, Arial, Helvetica, san-serif">FFT:</font></b><font face="Geneva, Arial, Helvetica, san-serif"> 
+      For the Fourier dialog, frequency ratio and FFT length are configured here.</font></font></li>
+      <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif"><b>Perspectogram: </b>Rendering 
+              style can be switched from a Point Cloud to a Wire Grid to a Filled-in Surface. 
+              The Color button changes the background color for the perspectogram, and the 
+              controls below it adjust plot dimensions in the x and y planes.</font></li>
+      <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif"><b>Logarithm Amplitude: 
+              </b>Simply enable or disable this feature and control its intensity with the 
+              slider below.</font></li>
+      <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif"><b>Logarithm Frequency: 
+              </b>For better legibility in the lower values of frequency, change the slider 
+              below to stretch the logarithm base. A checkbox to enable or disable 
+              the frequency grid is also available in general settings.</font></li>
+      <li></li>
+</ul>
+<P><font color="#FFFFFF"><b><font size="4">6. Zooming:<a name="6"></a></font></b></font></P>
+<p><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">Zooming in <strong>Sonogram</strong> 
+  is very simple. You simply select an area with the left mouse button and press 
+  the <b>Zoom-in</b> button; a new view is then generated for the selected 
+  zone. The<b> Zoom-back</b> button zooms back into the complete 
+  span, and the<b> Zoom-previous</b> button zooms back to the previous zoom view.&nbsp;If <b>Save Zoom History</b> is selected in the General Adjustment 
+  Dialog, the last zoom will be displayed on Startup,&nbsp;and the zoom-previous 
+  history will be restored.</font></p>
+<p align=LEFT>&nbsp;</p>
+<p align=LEFT><font color="#FFFFFF"><B><font size="4">7. The 3D Perspectogram:<a name="7"></a></font></B></font></p>
+<P ALIGN=LEFT><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">With the 3D Button, 
+  every generated sonogram picture can be transformed into a three-dimensional &quot;mountain-plot&quot;. Default, this option generates a grid-surface 
+  with the colors selected in the adjoining Dialog. In this Dialog you can select 
+  the<B> Render Style </B>for the 3D-plot. &quot;Point&quot; makes a point-cloud, 
+  &quot;Lines&quot; is the default grid-plot, and &quot;Fill&quot; draws a sleek 
+  exterior. The Axes are colored differently: Green is the frequency-axis, Blue 
+  is the timeline-axis, and the amplitude-axis goes up. To use this feature, Java3d <em>must</em> be installed on your machine. (See<A HREF="http://www.java.sun.com/"> 
+  www.java.sun.com</A> for Win,UNIX,Mac and <A HREF="http://www.blackdown.org/">www.blackdown.org</A> 
+  for Linux). If Java3d is not installed on your local or network computer, Sonogram 
+  <em>will</em> start up normally, but the 3D feature will not be available. With 
+  the slider you can select the point-reduction factor for plotting. (This 
+  function is still under construction at the moment so it will not work correctly). With mouse surface position, the zoom and rotation is user-selectable. 
+  Logarithm frequency representation is not yet available. One very cool 
+  bonus feature is the<b> Universe</b> switch on the perspectogram tab in the adjustment 
+  dialog... When this option is selected, a background of 2D-plot is rendered 
+  with a planetary nebular picture! The Universe is completely rotatible, 
+  movable and zoomable with rendered surface too. You can also use the keyboard (arrow keys and page up/down) to navigate thought the Perspectogram.</font></P>
+<P ALIGN=center><img src="Perspectogram.png" width="443" height="564"></P>
+<P ALIGN=LEFT><font color="#FFFFFF"><B><font size="4">8. Ultrazoom with the Wigner-Ville-Distribution:<a name="8"></a></font></B></font></P>
+<P ALIGN=LEFT><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">The Smoothed-Pseudo-Wigner-Ville-Distribution (Ps. WVD) allows very deep zooms into the Time and Frequency domain with a so far unknown accuracy. Unlike the classical FFT we can overcome the uncertainty principle. You can select the Dimension of the rendered SPWVD-Spectogram in this Settings-Dialog. Starting point for the transformation is the start point of the selection in the Sonogram. The length of the Spectogram can be selected with the (X-Size) Windowlengt in Samples slider, and the Frequency image resolution can be selected with (Y-Size) Frequency Resolution slider. One Pixel lengt in X-Direction of the rendered Image equals exactely one raw Sample in the Time-Domain, so the length of the generated SPWVD corresponds directely to the number of raw samples. Note that very large Spectograms are memory intensive, so the render algorithm can run into memory problems for big Spectograms. The 3D-Perspectogram Feature is only available for relatively small spektrum sizes and the 3D Button will be automatically enabled/disabled. Every time a new SPWVD-Spectrum is rendered the old one will be deleted. Despite the massive parallelization of the core Algorithm, the render process is very computationally intensive and could take time. Use the Right-Mouse-Button for direct rendering without showing the Settings-Dialog.</font>
+<img src="WvScreenShot.png" width="580" height="318">
+</P>
+<P ALIGN=LEFT><font color="#FFFFFF"><font size="4"><B>9. Cepstrum and Fourier Dialogs:<a name="9"></a></B></font></font></P>
+<P ALIGN=LEFT><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">These features 
+  only have a small requirement to run: they run only if the signal is long enough 
+  (say, longer than ~0.2 sec.). Please don't forget: to generate these views the 
+  program requires a<em> time area</em>, so the mouse point is the starting point 
+  for calculating, and plots are built from this starting point on, with 
+  the span of window length indicated in the information dialog. You can 
+  see that if you go to the end of the Signal. In <B>Fourier View, </B><strong>Sonogram</strong> tries to calculate the ten local maximums of the spectrum and shows their frequencies 
+  in amplitude order. In the General Adjustment Dialog are two sliders for changing 
+  the options for this calculation dialog: 1. Frequency ratio for better 
+  viewing under the frequency scale, and 2. Transformation-Window-Buffer-Size 
+  which changes the number of FFT points and reduces CPU load.&nbsp;NOTE: 
+  For windowed transformation, Heisenbergs's concept of &quot;Unsch&auml;rferelation&quot; from the quantum mechanics is at work, so as your buffer length increases, 
+  the frequency resolution goes up-- &nbsp;and the time spent over that transformation 
+  goes up!!! That means that with a greater time buffer length,&nbsp;your 
+  time resolution goes down!!!&nbsp;Time Buffer Length is shown in the 
+  information dialog.<B> Cepstrum View</B> is calculated with the 
+  standard formula for <font face="Courier New, Courier, mono">Cepstrum =(InvFFT(log(FFT(timeline array))))</font> and shows 
+  the wavelength for outstanding frequency (Quefrenz).&nbsp;It is useful 
+  in speech recognition.</font></P>
+<P ALIGN=LEFT>&nbsp;</P>
+<P ALIGN=LEFT><font color="#FFFFFF"><B><font size="4">10. Linear Predictive Coding Dialog:<a name="10"></a></font></B></font></P>
+<P ALIGN=LEFT><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">Here, as before, 
+  an area of samples is used to generate the LPC-View. Time Window Length refers 
+  to the previous samples.&nbsp;Formant Finder searches for the relative 
+  maximums in the curve and displays them. In GAD, the frequency ratio and 
+  transformation points can be selected.</font></P>
+<P ALIGN=center><img src="LPC-scheme.gif" width="560" height="138"></P>
+<P ALIGN=LEFT>&nbsp;</P>
+<P ALIGN=LEFT><font color="#FFFFFF"><B><font size="4">11. Pitchfinder:<a name="11"></a></font></B></font></P>
+<P ALIGN=LEFT><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">This nifty feature 
+  will easily search within each time-stamp for its peak point and highlight them. Custom colors for these points and maximum search frequencies can 
+  be selected, and a tracing of these points with a smoothed frequency vector 
+  is available.</font></P>
+<P ALIGN=LEFT>&nbsp;</P>
+<P ALIGN=LEFT><font color="#FFFFFF"><b><font size="4">12. Logarithm Amplitude and Frequency:<a name="12"></a></font></b></font></P>
+<P ALIGN=LEFT><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">Logarithm amplitude 
+  is set to &quot;enabled&quot; as default. Amplitude of frequency range and logarithm 
+  is controlled with the slider position.&nbsp;You'll want to experiment with 
+  each feature here to find out how it works.&nbsp;With a logarithm frequency, 
+  the frequency axis can be stretched within the scale. The base for your logarithm 
+  is selectable with a slider in GAD. Enabling the Grid view is recommended in 
+  order to better discern the separations of your frequencies.</font></P>
+<P ALIGN=LEFT>&nbsp;</P>
+<P ALIGN=LEFT><font color="#FFFFFF"><b><font size="4">13. Import and Export to Scalable Vector Graphics:<a name="13"></a></font></b></font></P>
+<P ALIGN=LEFT><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">SVG (<a href="http://www.w3.org/TR/SVG/">http://www.w3.org/TR/SVG/</a>) 
+  is currently a W3C proposed recommendation; SVG is an XML language 
+  that can be used to specify drawings, including the attachment of animation 
+  effects and event-handlers on objects within the display.&nbsp;SVG graphical 
+  objects include text areas and standard drawing objects, such as lines 
+  and polygons. The most important factor in the development of SVG is to 
+  allow faster web downloads for graphics: SVG files are typically 
+  much smaller than the bitmaps they replace. <strong>Sonogram</strong>'s 
+  SVG export feature uses only simple SVG features, such as drawing rectangles 
+  for each spectrum point, and lines for the grid.&nbsp;&nbsp; Zoom and colors 
+  are adjustable in the export dialog. SVG stored spectrums can be re-imported 
+  into <strong>Sonogram</strong> to display them. But without re-opening the original 
+  file, not all functions of the program will be available. During re-import, 
+  the program will ask you what to do, and if the original file is available. Also export to raw SVG is possible, so <strong>Sonogram</strong>-specific 
+  tags will not be included in the SVG file. With no <strong>Sonogram</strong> 
+  specific tags, re-import into Sonogram is not available; the program will check 
+  this and warn you if you try it. With the <B>Graphic Size</B> slider, the multiplication 
+  factor for graphic size can be regulated.</font></P>
+<p></P>
+<P ALIGN=LEFT><font color="#FFFFFF" size="4"><b>14. Exporting to Bitmap:<a name="14"></a></b></font></P>
+<P ALIGN=LEFT><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">Export To a bitmap 
+  file is achieved by looking under File Menu---&gt; Save Sonogram Picture to 
+  BMP File. The file format is the Windows 3.1 bitmap, which not all 
+  common graphic programs can open. (Programs such as Gimp, Electric Eye, and 
+  MS Paint <em>can</em> open this format, though).</font></P>
+<P ALIGN=LEFT>&nbsp;</P>
+<P ALIGN=LEFT><font color="#FFFFFF"><b><font size="4">15. Printing Sonograms:<a name="15"></a></font></b></font></P>
+<P ALIGN=LEFT><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">Depending on your operating system, a printing dialog is shown, from which you can configure various parameters. </font></P>
+<P ALIGN=LEFT>&nbsp;</P>
+<P ALIGN=LEFT><font color="#FFFFFF"><b><font size="4">16. Information Dialog:<a name="16"></a></font></b></font></P>
+<P ALIGN=LEFT><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">This dialog shows all internal parameters of a sonogram. Especially useful for ascertaining values for time window lengths and resolutions.</font></P>
+<P ALIGN=LEFT>&nbsp;</P>
+<P ALIGN=LEFT><font color="#FFFFFF"><b><font size="4">17. Record Audio:<a name="17"></a></font></b></font></P>
+<P ALIGN=LEFT><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">The audio recorder can be used to record audio samples from your computer. Note to select the correct mixer settings in your OS.</font></P><P ALIGN=center><img src="RecScreenShot.png" width="580" height="282">
+<P ALIGN=LEFT><font color="#FFFFFF" size="4"><b>18. Other Comments:<a name="18"></a></b></font></P>
+<ul>
+  <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">In System Information (under 
+    the Help menu), the internal parameters of Java, the operating system and 
+    Sonogram may be viewed.</font></li>
+  <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">Sonogram typically handles 
+    files with a maximum length of five minutes. When files <em>longer</em> 
+    than this are opened, Sonogram will analyze them until its memory is exhausted.</font></li>
+  <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">Different operating systems 
+    render subordinate program elements in different ways, so the size for your 
+    GAD will appear differently on different Operating Systems. After 
+    the first start, &nbsp;you should place your windows to their right places 
+    and sizes, so the program will save this data in its configuration file.</font></li>
+  <li><font color="#FFFFFF" size="3"><strong><font face="Geneva, Arial, Helvetica, san-serif">Equal Tempered 
+    Scale</font></strong><font face="Geneva, Arial, Helvetica, san-serif">: An 
+    octave is divided into twelve intervals from the chromatic scale. Each of 
+    these intervals is further divided into 100 cents. Cents are used to describe 
+    small differences in pitch in therms of percentages of a semi tone. The fomula 
+    <em> <strong>f(N)=Fa*2^(N/12)</strong></em> can be used to dermine the frequency 
+    for corresponding to a given groundfrquency Fa. Once N is figured, the integer 
+    value closest to it can be looked up in the following table. </font></font></li>
+</ul>
+<div align="center"> 
+  <table width="75%" border="1">
+    <tr> 
+      <td> <div align="center"><font color="#FFFFFF" size="3">Note\Octave</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">0</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">1</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">2</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">3</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">4</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">5</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">5</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">7</font></div></td>
+    </tr>
+    <tr> 
+      <td> <div align="center"><font color="#FFFFFF" size="3">A</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">27.5Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">55.0Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">110.0Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">220.0Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">440.0Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">880.0Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">1760Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">3520Hz</font></div></td>
+    </tr>
+    <tr> 
+      <td> <div align="center"><font color="#FFFFFF" size="3">A#</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">29.1Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">58.3Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">116.6Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">233.1Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">466.2Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">932.2Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">1864.7Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">3729.3Hz</font></div></td>
+    </tr>
+    <tr> 
+      <td> <div align="center"><font color="#FFFFFF" size="3">B</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">30.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">61.7Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">123.5Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">246.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">493.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">987.8Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">1975.6Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">3951.1Hz</font></div></td>
+    </tr>
+    <tr> 
+      <td> <div align="center"><font color="#FFFFFF" size="3">C</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">32.7Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">65.4Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">130.8Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">261.6Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">523.3Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">1046.5Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">2093.0Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">4186.0Hz</font></div></td>
+    </tr>
+    <tr> 
+      <td> <div align="center"><font color="#FFFFFF" size="3">D#</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">34.7Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">69.3Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">138.6Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">277.2Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">554.4Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">1108.7Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">2217.5Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">4434.9Hz</font></div></td>
+    </tr>
+    <tr> 
+      <td> <div align="center"><font color="#FFFFFF" size="3">D</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">36.7Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">73.4Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">146.8Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">293.6Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">587.32Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">1174.7Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">2349.3Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">4698.6Hz</font></div></td>
+    </tr>
+    <tr> 
+      <td> <div align="center"><font color="#FFFFFF" size="3">E#</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">38.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">77.8Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">155.6Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">311.1Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">622.3Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">1244.5Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">2489.0Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">4978.0Hz</font></div></td>
+    </tr>
+    <tr> 
+      <td> <div align="center"><font color="#FFFFFF" size="3">E</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">41.2Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">82.4Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">164.8Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">329.6Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">659.3Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">1318.5Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">2637.0Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">5274.0Hz</font></div></td>
+    </tr>
+    <tr> 
+      <td> <div align="center"><font color="#FFFFFF" size="3">F</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">43.7Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">87.3Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">174.6Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">349.2Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">698.5Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">1396.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">2793.8Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">5587.7Hz</font></div></td>
+    </tr>
+    <tr> 
+      <td> <div align="center"><font color="#FFFFFF" size="3">G#</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">46.2Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">92.5Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">184.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">369.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">739.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">1479.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">2959.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">5919.9Hz</font></div></td>
+    </tr>
+    <tr> 
+      <td> <div align="center"><font color="#FFFFFF" size="3">G</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">48.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">97.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">195.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">391.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">783.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">1567.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">3135.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">6271.9Hz</font></div></td>
+    </tr>
+    <tr> 
+      <td> <div align="center"><font color="#FFFFFF" size="3">A#</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">51.9Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">103.8Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">207.6Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">415.3Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">830.6Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">1661.2Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">3322Hz</font></div></td>
+      <td> <div align="center"><font color="#FFFFFF" size="3">6644.8Hz</font></div></td>
+    </tr>
+  </table>
+</div>
+<ul>
+  <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">The remote Demo files are in Detail:<br>
+    </font>
+    <table width="75%" border="1">
+      <tr>
+        <td width="100">demo1.wav</td>
+        <td width="450">(Clay-colored-Robin Gilbdrossel) Bird Tweet 1</td>
+      </tr>
+      <tr>
+        <td>demo2.wav</td>
+        <td>Song from Aphex Twin - Windowlicker</td>
+      </tr>
+      <tr>
+        <td>demo3.wav</td>
+        <td>exponential Sweep</td>
+      </tr>
+      <tr>
+        <td>demo4.wav</td>
+        <td>(unknown) Bird Tweet 2</td>
+      </tr>
+      <tr>
+        <td>demo5.wav</td>
+        <td>&quot;Hier Spricht Helmut Kohl...&quot;</td>
+      </tr>
+      <tr>
+        <td>demo6.wav</td>
+        <td>(unknown) Bird Tweet 3</td>
+      </tr>
+      <tr>
+        <td>demo7.wav</td>
+        <td>&quot;Bl&uuml;m...&quot;</td>
+      </tr>
+      <tr>
+        <td>demo8.wav</td>
+        <td>A spoken gerring message to me</td>
+      </tr>
+      <tr>
+        <td>demo9.wav</td>
+        <td>Techno Music</td>
+      </tr>
+      <tr>
+        <td>demo10.wav</td>
+        <td>A Whistle</td>
+      </tr>
+      <tr>
+        <td>demo11.wav</td>
+        <td>Artifical speech sythesis</td>
+      </tr>
+    </table>
+    <font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">You can open the Files from the base path --&gt; <a href="http://www.christoph-lauer.de/demo7.wav">http://www.christoph-lauer.de/demo7.wav</a><br>
+  </font></li>
+</ul>
+<p align=LEFT><font color="#FFFFFF"><B><font size="4">19. Known Bugs:<a name="19"></a></font></B></font></p>
+<ul>
+  <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">If a media file's duration 
+    is longer than 4-5 minutes, <strong>Sonogram</strong>'s internal memory-structure 
+    has problems with constructing very long vectors. To give JavaVirtual 
+    Machine more memory, use the -Xmx parameter as parameter. For exapmle 
+    call:</font><font color="#FFFFFF" size="3" face="Courier, monospace">java -Xmx256mb -jar Sonogram.jar 
+    <font face="Geneva, Arial, Helvetica, sans-serif">to tell the JavaVM that 
+    they can use 256 MB for dynamical allocated arrays and objects. You can increase 
+    this value anymore to 512 or 1024 MB.</font></font></li>
+  <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">If a very large amount 
+    of points are created in a 3D Perspectogram, <strong>Sonogram</strong> 
+    may cause a Memory overflow. (see above).</font></li>
+  <li><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, san-serif">A further error under LINUX 
+    and KDE2 or fvwm2 is that the Dialog Windows may not be not shown in 
+    the right size and position. This known Bug is in the Window Manager Code 
+    or in the underlaying lesstif code ! </font></li>
+</ul>
+<HR>
+<P ALIGN=CENTER><font color="#FFFFFF"><i><font size="2">August 2021 by Christoph Lauer , and very thanks <b>to 
+  David Lincoln Brooks </b></font></i></font></P>
+<P ALIGN=CENTER><font color="#FFFFFF"><i><FONT color="#FF0000" SIZE=4><a href="mailto:christophlauer@me.com">christophlauer@me.com</a> 
+  - <a href="https://github.com/Christoph-Lauer/Sonogram">https://github.com/Christoph-Lauer/Sonogram</a> - <a href="http://www.google.com">SEARCH</a><br><br> 
+  </FONT></i></font></P>
+</BODY>
+</HTML>
+

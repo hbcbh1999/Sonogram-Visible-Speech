@@ -1,0 +1,32 @@
+1     Cat Purr
+2     Donkey
+3     Hedgehog
+4     Logarithmic Sweep
+5     Japanese Speech
+6     Applause
+7     Fanfare
+8     Engine Start
+9     Diphone Speech Synthesis
+10    Car Door Close)
+11    Dolphins
+12    Bird Trush
+13    Orca
+14    Modem
+15    Violine
+16    Trombone
+17    Whistling
+18    Police Siren
+19    Swans
+20    Human Speech
+21    TTS french
+22    Bearing
+23    Spectogram Art
+24    Bee
+25    Bird Red-breasted Nuthatch
+26    Bird Blackcap
+27    Bird Nightingale
+28    Grasshopper Orthoptera Rhacocleis
+29    Green Toad
+30    Bird Chaffinch
+31    Bird Blackbird
+32    Bird Wren
