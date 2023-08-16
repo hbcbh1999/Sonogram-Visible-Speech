@@ -12,9 +12,9 @@ Contact: [Christoph Lauer](https://christoph-lauer.github.io), christophlauer@me
 
 <img align="left" width="109" height="82" padding="10" src="images/SonogramIcon.png">
 
-* [Download](https://github.com/Christoph-Lauer/Sonogram/releases/download/v5.0.1/SonogramMacOS.zip) Sonogram for **macOS**
-* [Download](https://github.com/Christoph-Lauer/Sonogram/releases/download/v5.0.1/SonogramWindows.zip) Sonogram for **Windows**
-* [Download](https://github.com/Christoph-Lauer/Sonogram/releases/download/v5.0.1/SonogramUnix.zip) Sonogram for **Unix/linux**
+* [Download](https://github.com/Christoph-Lauer/Sonogram/releases/download/v5.0/SonogramMacOS.zip) Sonogram for **macOS**
+* [Download](https://github.com/Christoph-Lauer/Sonogram/releases/download/v5.0/SonogramWindows.zip) Sonogram for **Windows**
+* [Download](https://github.com/Christoph-Lauer/Sonogram/releases/download/v5.0/SonogramUnix.zip) Sonogram for **Unix/linux**
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NJ7YC6GJT5QJA) (Sonogram is free, but please support the further Development of Sonogram Visible Speech)
 
