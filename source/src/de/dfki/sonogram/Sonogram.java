@@ -633,7 +633,7 @@ public class Sonogram extends JFrame implements ActionListener, MouseListener {
     System.out.println("     *             SONOGRAM " + version + "               *");
     System.out.println("     *              BUILD " + build + "                *");
     System.out.println("     *            Visible Speech              *");
-    System.out.println("     *         christoph.lauer@me.com         *");
+    System.out.println("     *          christophlauer@me.com         *");
     System.out.println("     *      License:     FREE  License 1.0    *");
     System.out.println("     * Time-stamp:<08/28/2021 14:31:44 chris> *");
     System.out.println("     ******************************************");
@@ -2854,7 +2854,7 @@ public class Sonogram extends JFrame implements ActionListener, MouseListener {
               + "<hr><br><i><font size=3><center>programed from 2000 to "
               + yearStr
               + " by © Christoph Lauer Engineering"
-              + "<br><u>christoph.lauer@me.com</u> - <u>https://christoph-lauer.githb.io</u><br>",
+              + "<br><u>christophlauer@me.com</u> - <u>https://christoph-lauer.github.io</u><br>",
           JOptionPane.INFORMATION_MESSAGE);
     }
     if (e.getSource() == recordItem || e.getSource() == recbutton) {
