@@ -1,7 +1,7 @@
 # Sonogram Visible Speech 5.0
 [![Alt text](images/Splash.png)](https://youtu.be/jDCRvBTwXuE)
 
-Sonogram visible speech has been programmed at the German Research Center for Artifical Intelligence  (Deutsches Forschungszentrum für Kuenstliche Intelligenz DFKI, www.dfki.de), and is a 3D tool to analyze speech and sound signals with STFT and various other algorithms. The software originates from basic research and the attempt to build a speech recognizer. The new version **requires Java at least in version 16**. If you have any **questions or problems running or compiling the Sonogram, don't hesitate to contact us.** The program was written with [emacs](https://www.gnu.org/software/emacs/).
+Sonogram visible speech has been programmed at the German Research Center for Artifical Intelligence  (Deutsches Forschungszentrum für Kuenstliche Intelligenz DFKI, www.dfki.de), and is a 3D tool to analyze speech and sound signals with STFT and various other algorithms. The software originates from basic research and the attempt to build a speech recognizer with neuronal networks. The new version **requires Java at least in version 16**. If you have any **questions or problems running or compiling the Sonogram, don't hesitate to contact us.** The program was written with [emacs](https://www.gnu.org/software/emacs/).
 
 Contact: [Christoph Lauer](https://christoph-lauer.github.io), christophlauer@me.com
 
